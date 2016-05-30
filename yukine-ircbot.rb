@@ -7,8 +7,7 @@ $nice_users = [
 	"nola",
 	"zuckerwatte",
 	"rai",
-	"raipat",
-	"efa"
+	"raipat"
 ]
 
 $NICE = false
@@ -50,7 +49,7 @@ ircBot = Cinch::Bot.new do
 				f_msg = [
 					"Scher dich dahin, wo der Pfeffer wächst, #{m.params[1].split("++")[0]} -.-#",
 					#"Ihr versteht mich alle nicht!! WAS IST EUER PROBLEM?!?",
-					"#{m.params[1].split("++")[0]} hat sich das nicht verdient, so gelobt zu werden...",
+					"#{m.params[1].split("++")[0]} hat das nicht verdient, so gelobt zu werden...",
 					#"Anstatt mal Yato zu unterstützen müsst ihr alle hier herumlungern....",
 					"Boah, #{m.params[1].split("++")[0]}? Das glaubst du ja wohl selber nicht, efa!",
 					"#{m.params[1].split("++")[0]}: Sei doch so nett und HALT DIE KLAPPE.",
@@ -91,7 +90,7 @@ ircBot = Cinch::Bot.new do
 				f_msg = [
 					"Scher dich dahin, wo der Pfeffer wächst, #{m.params[1].split("--")[0]} -.-#",
 					#"Ihr versteht mich alle nicht!! WAS IST EUER PROBLEM?!?",
-					"#{m.params[1].split("--")[0]} hat sich das verdient, so gedemütigt zu werden...",
+					"#{m.params[1].split("--")[0]} hat das verdient, so gedemütigt zu werden...",
 					#"Anstatt mal Yato zu unterstützen müsst ihr alle hier herumlungern....",
 					"Boah, #{m.params[1].split("--")[0]}! Einer muss es ja sagen, efa!",
 					"#{m.params[1].split("--")[0]}: Genau. Sei doch so nett und HALT DIE KLAPPE.",
